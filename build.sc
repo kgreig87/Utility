@@ -8,11 +8,11 @@ import $file.`rocket-chip`.common
 import $file.`rocket-chip`.cde.common
 import $file.`rocket-chip`.hardfloat.build
 
-val defaultScalaVersion = "2.13.15"
+val defaultScalaVersion = "2.13.17"
 
 def defaultVersions = Map(
-  "chisel"        -> ivy"org.chipsalliance::chisel:7.0.0",
-  "chisel-plugin" -> ivy"org.chipsalliance:::chisel-plugin:7.0.0",
+  "chisel"        -> ivy"org.chipsalliance::chisel:7.10.0",
+  "chisel-plugin" -> ivy"org.chipsalliance:::chisel-plugin:7.10.0",
 )
 
 trait HasChisel extends ScalaModule {
